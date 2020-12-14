@@ -2,10 +2,9 @@
   <div id="app">
     
        <Navbar />
-      <!-- <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link> -->
-    
-    <router-view/>
+    <transition name="fade" mode="out-in">
+      <router-view />
+    </transition>
   </div>
 </template>
 
@@ -27,5 +26,24 @@ export default {
 
 <style lang="scss">
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+.fade-enter-active {
+  transition: all 1s ease;
+}
+.fade-leave-active {
+  transition: all 1s cubic-bezier(1, 0.5, 0.8, 1);
+}
+.fade-enter,
+.fade-leave-to {
+  transform: translateY(30px);
+  opacity: 0;
+}
+
 
 </style>
+
