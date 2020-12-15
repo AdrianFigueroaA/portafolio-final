@@ -13,6 +13,7 @@
        
  <b-navbar-nav>
         <b-nav-item  :to="{ name: 'home' }" >Inicio</b-nav-item>
+         <b-nav-item :to="{ name: 'Herramientas' }">Herramientas</b-nav-item>
         <b-nav-item  :to="{ name: 'Trabajos' }" >Trabajos</b-nav-item>
         <b-nav-item :to="{ name: 'Experiencias' }">Experiencias</b-nav-item>
         <b-nav-item :to="{ name: 'Intereses' }">Intereses</b-nav-item>
