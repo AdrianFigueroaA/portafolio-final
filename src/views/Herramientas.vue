@@ -37,15 +37,27 @@ export default {
 .herramientas{
 
     text-align: center;
+
+        >h1{
+
+            margin-top: 30px;
+            margin-bottom: 50px
+        }
 }
 
 img{
     height: 100px;
 }
 
-.herramientas1{
+.herramientas1 {
 
-
+display: flex;
+justify-content: center;
+margin-bottom: 50px;
+}
+.herramientas2{
+  display: flex;
+justify-content: center;  
 }
 h1, h3{
 
