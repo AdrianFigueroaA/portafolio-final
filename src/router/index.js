@@ -12,22 +12,6 @@ const routes = [
     alias: ["/inicio", "/home", "/portada", "/"],
   },
   {
-    path: '/contacto',
-    name: 'Contacto',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "contacto" */ '../views/Contacto.vue')
-  },
-  {
-    path: '/experiencias',
-    name: 'Experiencias',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "experiencias" */ '../views/Experiencias.vue')
-  },
-  {
     path: '/herramientas',
     name: 'Herramientas',
     // route level code-splitting

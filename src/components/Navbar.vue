@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div class="navBar">
        <b-navbar toggleable="lg" type="dark" variant="info">
-    <b-navbar-brand  :to="{ name: 'home' }" >Adrian Figueroa</b-navbar-brand>
+    <b-navbar-brand  :to="{ name: 'home' }" >  <span>Adrián Figueroa</span>  </b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
@@ -15,9 +15,7 @@
         <b-nav-item  :to="{ name: 'home' }" >Inicio</b-nav-item>
          <b-nav-item :to="{ name: 'Herramientas' }">Herramientas</b-nav-item>
         <b-nav-item  :to="{ name: 'Trabajos' }" >Trabajos</b-nav-item>
-        <b-nav-item :to="{ name: 'Experiencias' }">Experiencias</b-nav-item>
         <b-nav-item :to="{ name: 'Intereses' }">Intereses</b-nav-item>
-        <b-nav-item :to="{ name: 'Contacto' }">Contacto</b-nav-item>
       </b-navbar-nav>
       
 
@@ -35,5 +33,23 @@ export default {
 </script>
 
 <style>
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&display=swap");
+
+.navBar {
+
+ font-family: "Oswald", sans-serif;
+  color: #0984e3;
+  font-size: 25px;
+
+   
+
+}
+
+ span {
+         font-family: "Oswald", sans-serif;
+     
+        font-size: 25px;
+
+    }
 
 </style>

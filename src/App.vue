@@ -2,9 +2,11 @@
   <div id="app">
     
        <Navbar />
+      
     <transition name="fade" mode="out-in">
       <router-view />
     </transition>
+     <Contacto />
   </div>
 </template>
 
@@ -14,11 +16,15 @@
 // @ is an alias to /src
 
 import Navbar from '@/components/Navbar.vue'
+import Contacto from '@/components/Contacto.vue'
+
 export default {
   name: 'App',
   components: {
   
-    Navbar
+    Navbar,
+    Contacto
+    
   }
 }
 </script>

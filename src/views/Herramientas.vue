@@ -35,13 +35,14 @@ export default {
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&display=swap");
 
 .herramientas{
-
+    
     text-align: center;
+    height: 500px;
 
         >h1{
 
-            margin-top: 30px;
-            margin-bottom: 50px
+            margin-top: 55px;
+            margin-bottom: 55px
         }
 }
 
