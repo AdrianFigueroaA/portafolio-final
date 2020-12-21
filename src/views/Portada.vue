@@ -4,38 +4,38 @@
       <b-row>
         <b-col cols="5" id="portrait"></b-col>
         <b-col cols="7" id="description">
-          <h1>Desarrollador Front end </h1>
+          <h1>Desarrollador Front end</h1>
           <p>
-            Soy desarrollador front end , hace unos años estudié programación
-            pero tuve que cambiar de área laboral y este año logré retomar los
-            estudios, por lo que me interesa adquirir mas experiencia en esta
-            área. Realicé proyectos con Vue, Javascript, Html, Css, Firebase, y
-            sistema de control de versiones Git.
+            Soy desarrollador front end y estoy comenzando mi carrera como
+            programador, sin embargo siempre he estado ligado a la informática.
+            Admiro la capacidad de las nuevas tecnologías de facilitar la vida a
+            las personas y me interesa seguir profundizando mis conocimientos en
+            el área. Actualmente manejo herramientas como Vue, Javascript, Html,
+            Css, Firebase, y sistema de control de versiones Git. También tengo
+            conocimiento en electrónica y sistemas operativos. Soy un ávido
+            lector, amante de la ciencia y el rock.
           </p>
         </b-col>
       </b-row>
     </b-container>
-    
   </div>
-  
 </template>
 
 <script>
-
 export default {
   name: "Portada",
-  components: {
-    
-  },
+  components: {},
 };
 </script>
 
 <style lang="scss">
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&display=swap");
 
-.portada{
-
+.portada {
+  position: sticky;
   background: black;
+  top: 65px;
+  z-index: -1;
 }
 
 #portrait {

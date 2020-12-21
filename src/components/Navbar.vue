@@ -15,7 +15,7 @@
         <b-nav-item  :to="{ name: 'home' }" >Inicio</b-nav-item>
          <b-nav-item :to="{ name: 'Herramientas' }">Herramientas</b-nav-item>
         <b-nav-item  :to="{ name: 'Trabajos' }" >Trabajos</b-nav-item>
-        <b-nav-item :to="{ name: 'Intereses' }">Intereses</b-nav-item>
+      
       </b-navbar-nav>
       
 
@@ -40,6 +40,9 @@ export default {
  font-family: "Oswald", sans-serif;
   color: #0984e3;
   font-size: 25px;
+  position: sticky;
+  top: 0;
+  z-index: 900;
 
    
 
@@ -53,3 +56,4 @@ export default {
     }
 
 </style>
+

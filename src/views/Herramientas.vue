@@ -1,5 +1,5 @@
 <template>
-  <div>
+  
     <b-container fluid class="herramientas">
 
         <h1>Herramientas</h1>
@@ -21,7 +21,7 @@
         </b-row>
 
     </b-container>
-  </div>
+  
 </template>
 
 <script>
@@ -35,13 +35,14 @@ export default {
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&display=swap");
 
 .herramientas{
-    
+    position: sticky;
     text-align: center;
-    height: 500px;
-
+    background: white;
+    top: 65px;
+    padding-top: 80px;
+    padding-bottom: 80px;
         >h1{
-
-            margin-top: 55px;
+            
             margin-bottom: 55px
         }
 }

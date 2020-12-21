@@ -28,12 +28,20 @@ name:"Intereses"
 <style lang="scss">
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&display=swap");
 #intereses {
+  position: sticky;
+  top: 100px;
   text-align: center;
-  height: 310px;
+  
   background:white;
-  margin-top: 30px;
+  
+  padding-top: 80px;
+  padding-bottom: 80px;
  h1, h3 {
     font-family: "Oswald", sans-serif;
+  }
+
+  p {
+    margin-bottom: 40px;
   }
     
 }
