@@ -2,8 +2,8 @@
   <div class="portada">
     <b-container fluid>
       <b-row>
-        <b-col cols="5" id="portrait"></b-col>
-        <b-col cols="7" id="description">
+        <b-col  cols="12" md="5" id="portrait"></b-col>
+        <b-col  cols="12" md="7" id="description">
           <h1>Desarrollador Front end</h1>
           <p>
             Soy desarrollador front end y estoy comenzando mi carrera como
@@ -36,7 +36,6 @@ export default {
   background: black;
   top: 65px;
   z-index: -1;
-  
 }
 
 #portrait {
@@ -44,7 +43,7 @@ export default {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
+  min-height: 400px;
 }
 
 #description {
@@ -64,4 +63,49 @@ export default {
     color: white;
   }
 }
+
+
+
+
+@media (max-width: 800px) {
+  
+
+.portada {
+  top: unset;
+  position: static;
+}
+
+
+#description {
+  
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5px 10px;
+  text-align: center;
+  
+
+  > h1 {
+     margin-bottom: 10px;
+    
+  }
+  > p {
+    font-size: 20px;
+    color: white;
+  }
+}
+
+
+#portrait {
+ 
+  min-height: 250px;
+}
+
+}
 </style>
+
+
+
+
+
+

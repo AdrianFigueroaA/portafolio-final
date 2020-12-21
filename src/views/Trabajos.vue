@@ -1,9 +1,10 @@
 <template>
   <b-container fluid class="trabajos">
     <h1>Mis Trabajos</h1>
+<b-row class="tarjetas" > 
 
-    <div class="tarjetas">
-      <b-card
+  <b-col cols="12" md="4">
+<b-card
         title="DinoAustral"
         img-src="https://firebasestorage.googleapis.com/v0/b/portafolio-cc234.appspot.com/o/capturas%20proyectos%2FScreenshot_2020-12-17%20DinoAustral.jpg?alt=media&token=877ab6d8-1c30-4b9a-92b2-c0983d409a65"
         img-alt="Image"
@@ -33,8 +34,12 @@
 
         <b-button v-b-modal.modal-1>Ver +</b-button>
       </b-card>
+  </b-col>
 
-      <b-card
+
+
+<b-col cols="12" md="4">
+<b-card
         title="Barbershop"
         img-src="https://firebasestorage.googleapis.com/v0/b/portafolio-cc234.appspot.com/o/capturas%20proyectos%2FScreenshot_2020-12-18%20BarberShop.png?alt=media&token=788ce791-69be-4806-86df-e9c48494036c"
         img-alt="Responsive image"
@@ -61,8 +66,10 @@
 
         <b-button v-b-modal.modal-2>Ver +</b-button>
       </b-card>
+</b-col>
 
-      <b-card
+<b-col cols="12" md="4">
+ <b-card
         title="Treek-in"
         img-src="https://firebasestorage.googleapis.com/v0/b/portafolio-cc234.appspot.com/o/capturas%20proyectos%2FScreenshot_2020-12-18%20Startup%20Treek-in.png?alt=media&token=da06c595-904a-4504-872b-585c9475dcab"
         img-alt="Image"
@@ -91,18 +98,22 @@
 
         <b-button v-b-modal.modal-3>Ver +</b-button>
       </b-card>
-    </div>
+</b-col>
 
-    <div>
-      <b-button
+
+    <!-- <b-col  cols="12" md="6">
+     
+      <br />
+    </b-col> -->
+</b-row>
+ <b-button
         block
         variant="outline-light"
-        href="https://github.com/AdrianFigueroaA"
+        href="https://github.com/AdrianFigueroaA" 
+        target="_blank"
         > <span>Para Conocer mis otros Trabajos visita mi Github <i class="fab fa-github"></i></span>
         
       </b-button>
-      <br />
-    </div>
   </b-container>
 </template>
 
@@ -125,11 +136,24 @@ h1 {
 
 .tarjetas {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   padding-bottom: 30px;
   padding-top: 30px;
 }
 
+
+@media (max-width: 800px) {
+
+
+.trabajos {
+  
+  position: unset;
+  top: unset;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+}
 
 
 </style>
