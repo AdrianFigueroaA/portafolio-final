@@ -31,8 +31,7 @@ export default {
 <style lang="scss">
 .contacto {
   background: black;
-  padding-top: 25px;
-  
+   
 }
 
 .link-id {
@@ -52,7 +51,6 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-
   font-size: 40px;
 
   a {

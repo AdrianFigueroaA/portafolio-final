@@ -26,7 +26,7 @@
 
           <b-button
             href="https://dinosaurios-de-chile.web.app/"
-            variant="primary"
+            variant="success"
             >Visita el Proyecto</b-button
           >
         </b-modal>
@@ -54,7 +54,7 @@
 
           <b-button
             href="https://adrianfigueroaa.github.io/barbershop/"
-            variant="primary"
+            variant="success"
             >Visita el Proyecto</b-button
           >
         </b-modal>
@@ -84,7 +84,7 @@
 
           <b-button
             href="https://adrianfigueroaa.github.io/treek-in/"
-            variant="primary"
+            variant="success"
             >Visita el Proyecto</b-button
           >
         </b-modal>
@@ -96,10 +96,10 @@
     <div>
       <b-button
         block
-        variant="primary"
+        variant="outline-light"
         href="https://github.com/AdrianFigueroaA"
-        >Para Conocer mis otros Trabajos visita mi Github
-        <i class="fab fa-github"></i>
+        > <span>Para Conocer mis otros Trabajos visita mi Github <i class="fab fa-github"></i></span>
+        
       </b-button>
       <br />
     </div>
@@ -130,9 +130,6 @@ h1 {
   padding-top: 30px;
 }
 
-.trabajos {
-  > h1 {
-    padding-top: 30px;
-  }
-}
+
+
 </style>

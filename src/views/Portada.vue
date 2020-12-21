@@ -36,6 +36,7 @@ export default {
   background: black;
   top: 65px;
   z-index: -1;
+  
 }
 
 #portrait {
@@ -43,19 +44,20 @@ export default {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px;
+
 }
 
 #description {
-  text-align: center;
+  text-align: left;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding: 55px;
+  padding: 120px 55px;
 
   > h1 {
     font-family: "Oswald", sans-serif;
     color: #0984e3;
+    margin-bottom: 30px;
   }
   > p {
     font-size: 20px;

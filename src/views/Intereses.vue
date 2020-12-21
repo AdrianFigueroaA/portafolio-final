@@ -41,7 +41,7 @@ name:"Intereses"
   }
 
   p {
-    margin-bottom: 40px;
+    margin-bottom: 50px;
   }
     
 }
