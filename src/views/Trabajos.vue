@@ -3,9 +3,10 @@
     <h1>Mis Trabajos</h1>
 <b-row class="tarjetas" > 
 
-  <b-col cols="12" md="4">
+  <b-col  class="cd" cols="12" md="4">
 <b-card
-        title="DinoAustral"
+      
+        centered title="DinoAustral"
         img-src="https://firebasestorage.googleapis.com/v0/b/portafolio-cc234.appspot.com/o/capturas%20proyectos%2FScreenshot_2020-12-17%20DinoAustral.jpg?alt=media&token=877ab6d8-1c30-4b9a-92b2-c0983d409a65"
         img-alt="Image"
         img-top
@@ -38,7 +39,7 @@
 
 
 
-<b-col cols="12" md="4">
+<b-col  class="cd" cols="12" md="4">
 <b-card
         title="Barbershop"
         img-src="https://firebasestorage.googleapis.com/v0/b/portafolio-cc234.appspot.com/o/capturas%20proyectos%2FScreenshot_2020-12-18%20BarberShop.png?alt=media&token=788ce791-69be-4806-86df-e9c48494036c"
@@ -68,7 +69,7 @@
       </b-card>
 </b-col>
 
-<b-col cols="12" md="4">
+<b-col class="cd" cols="12" md="4">
  <b-card
         title="Treek-in"
         img-src="https://firebasestorage.googleapis.com/v0/b/portafolio-cc234.appspot.com/o/capturas%20proyectos%2FScreenshot_2020-12-18%20Startup%20Treek-in.png?alt=media&token=da06c595-904a-4504-872b-585c9475dcab"
@@ -139,7 +140,26 @@ h1 {
   justify-content: center;
   padding-bottom: 30px;
   padding-top: 30px;
+  text-align: center;
 }
+
+.cd {
+
+  display: flex;
+  justify-content: center;
+}
+
+.modal-footer {
+
+  display: none !important;
+}
+
+.modal-dialog {
+
+  text-align: center;
+}
+
+
 
 
 @media (max-width: 800px) {

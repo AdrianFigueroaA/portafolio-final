@@ -53,15 +53,39 @@ export default {
   flex-direction: column;
   padding: 120px 55px;
 
+
+
   > h1 {
     font-family: "Oswald", sans-serif;
     color: #0984e3;
     margin-bottom: 30px;
+    animation: textoAnimado 2s ;
+
   }
   > p {
-    font-size: 20px;
+    font-size: 18px;
     color: white;
+    animation: textoAnimado 3s ;
+    animation-iteration-count: 1;
+    animation-direction: normal;
   }
+
+
+  @keyframes textoAnimado {
+
+    from {
+       left: -50px;
+        color: black;
+        position: relative;
+    }
+
+    to {
+        position: relative;
+       left: 0px;
+        color: white;
+    }
+
+}
 }
 
 
